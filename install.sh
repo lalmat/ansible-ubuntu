@@ -12,6 +12,7 @@ sudo add-apt-repository --yes --update ppa:ansible/ansible
 echo "-------------------------------------------------------------------------------"
 echo "Installing GIT"
 sudo apt install git --yes
+
 if [ ! -f ~/.gitconfig ]; then
     echo "-------------------------------------------------------------------------------"
     echo "GITCONFIG"
