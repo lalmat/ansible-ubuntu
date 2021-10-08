@@ -5,6 +5,8 @@ sudo apt update
 sudo apt upgrade --yes
 sudo apt dist-upgrade --yes
 
+sudo apt install build-essential linux-headers-`uname -r` dkms
+
 echo "-------------------------------------------------------------------------------"
 echo "Add Ansible Official PPA"
 sudo add-apt-repository --yes --update ppa:ansible/ansible
