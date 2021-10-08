@@ -4,5 +4,5 @@ I use this tool on a brand new Ubuntu machine to get a cool and working environm
 
 # How :
 ```
-sudo bash -c "$(wget https://raw.github.com/lalmat/ansible-ubuntu/master/tools/install.sh -O -)"
+# $(wget https://raw.githubusercontent.com/lalmat/ansible-ubuntu/main/install.sh -O -)
 ```
