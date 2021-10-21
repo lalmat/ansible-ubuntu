@@ -5,7 +5,7 @@ sudo apt update
 sudo apt upgrade --yes
 sudo apt dist-upgrade --yes
 
-sudo apt install gcc make perl build-essential linux-headers-`uname -r` dkms
+sudo apt install gcc make perl build-essential linux-headers-`uname -r` dkms curl
 
 echo "-------------------------------------------------------------------------------"
 echo "Add Ansible Official PPA"
